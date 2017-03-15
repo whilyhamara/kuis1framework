@@ -23,18 +23,8 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
-	public function home()
-	{
-		$this->load->view('home');
-	}
-
 	public function about()
 	{
-		$this->load->view('about');
-	}
-
-	public function contact()
-	{
-		$this->load->view('contact');
+		echo "hello world";
 	}
 }
